@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">TopoCut: Learning Multi-Step Cutting with Spectral Rewards and Discrete Diffusion Policies</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Anonymous Author</a></span>
+              <!-- <span class="author-block">
+                <a href="https://imankgoyal.github.io" target="_blank">Ankit Goyal</a>,</span>
+              <span class="author-block">
+                <a href="https://jack-xhp.github.io" target="_blank">Haoping Xu</a>,</span>
+              <span class="author-block">
+                <a href="https://animesh.garg.tech" target="_blank">Animesh Garg</a>
+              </span> -->
+            </div>
+
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block">Georgia Tech, University of Toronto, NVIDIA, Vector Institute<br>2024 Conference on Robot Learning</span>
+            </div> -->
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                   <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a  target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Supplementary PDF link -->
+              <span class="link-block">
+                <a
+                  href="static/pdfs/appendix.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open supplementary appendix (PDF)"
+                  class="external-link button is-normal is-rounded is-dark"
+                >
+                  <span class="icon" aria-hidden="true">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary</span>
+                </a>
+              </span>
+
+
+            <!-- Github link -->
+            <span class="link-block">
+              <a target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+
+          <!-- ArXiv abstract Link -->
+          <span class="link-block">
+            <a target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/corl_2025_teaser_video.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Main Points</h2>
+        <div class="content has-text-justified">
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fas fa-industry"></i></span>High-fidelity simulation environment with a particle-based elastoplastic solver and novel damage-driven topology discovery mechanism.</li>
+            <li><span class="fa-li"><i class="fas fa-wave-square"></i></span>Pose-invariant spectral reward based on Laplace–Beltrami eigenanalysis for robust, alignment-free evaluation of cutting outcomes.</li>
+            <li><span class="fa-li"><i class="fas fa-brain"></i></span>Dynamics-informed perception module that predicts topological evolution and generates particle-wise, topology-aware embeddings.</li>
+            <li><span class="fa-li"><i class="fas fa-cogs"></i></span>Particle-based Score-Entropy Discrete Diffusion Policy (PDDP) for goal-conditioned, multi-step cutting action generation.</li>
+            <li><span class="fa-li"><i class="fas fa-chart-line"></i></span>Extensive experiments demonstrating trajectory generation, scalable learning, precise evaluation, and strong generalization across diverse geometries and tasks.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Blog Reading Session -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Cutting-Edge Precision: How TopoCut Transforms Robotic Deformable Object Manipulation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Imagine a robotic arm that not only slices a tomato into perfect, uniform pieces but does so across multiple successive cuts—without ever needing manual alignment or specialized labels. Achieving this level of precision and adaptability for deformable materials has remained an open challenge in robotics. Recent work introduces <strong>TopoCut</strong>, a unified framework that marries high-fidelity simulation, novel evaluation metrics, and advanced learning algorithms to tackle multi-step cutting tasks with unprecedented robustness and generalization.
+          </p>
+
+          <h3 class="title is-4">What’s New in Robotic Cutting?</h3>
+          <p>
+            Traditional approaches either rely on fixed cutting trajectories or require explicit geometric alignment to assess success, making them brittle in real-world scenarios. Moreover, most methods lack the ability to perceive dense topological changes inherent to sequential cuts. TopoCut overcomes these hurdles by introducing a spectral reward that is invariant to object pose and a perception module that infers hidden topological structure—all within a single, extensible benchmark.
+          </p>
+
+          <h3 class="title is-4">Introducing TopoCut: A Unified Framework</h3>
+          <p>
+            TopoCut is built upon three synergistic components:
+          </p>
+          <ul>
+            <li><strong>High-Fidelity Simulation</strong>: A particle-based MLS-MPM elastoplastic solver with compliant von Mises models and a damage-driven topology discovery mechanism.</li>
+            <li><strong>Spectral Reward</strong>: An intrinsic Laplace–Beltrami eigenanalysis-based metric that evaluates shape similarity without requiring explicit alignment.</li>
+            <li><strong>PDDP Policy Learning</strong>: A conditional discrete diffusion policy, powered by dynamics-informed perception embeddings, for generating multi-step cutting actions.</li>
+          </ul>
+
+          <h3 class="title is-4">How TopoCut Works</h3>
+          <p>
+            First, expert data is collected via tele-operated and MPPI-guided trajectories in the simulator. The topology discovery module tracks particle damage and reconstructs fragment surfaces. Next, the spectral reward computes a pose-agnostic similarity score to guide planning. A perception encoder then learns to predict the evolution of object topology from depth observations, producing particle-wise embeddings. Finally, PDDP leverages these embeddings to perform a discrete diffusion process, outputting precise cut predictions conditioned on both current and goal shapes.
+          </p>
+
+          <h3 class="title is-4">Why TopoCut Matters</h3>
+          <p>
+            By seamlessly integrating simulation, evaluation, perception, and policy learning, TopoCut establishes a new standard for deformable object manipulation:
+          </p>
+          <ul>
+            <li><strong>No Manual Alignment</strong>: Spectral reward negates the need for cumbersome pose adjustments.</li>
+            <li><strong>Topology-Aware Learning</strong>: Perception embeddings capture dense structural changes for robust policy conditioning.</li>
+            <li><strong>Scalable & Generalizable</strong>: Demonstrated success across ten object geometries, varying scales, poses, and cut goals.</li>
+          </ul>
+
+          <h3 class="title is-4">Real-World Implications</h3>
+          <p>
+            The TopoCut framework paves the way for advanced automation in industries like food processing, where precise multi-pass slicing is vital; surgical robotics, requiring careful sequential incisions; and manufacturing settings that demand accurate material segmentation—all achieved without extensive human supervision.
+          </p>
+
+          <h3 class="title is-4">Looking Forward</h3>
+          <p>
+            TopoCut not only provides a comprehensive benchmark but also highlights future directions: accelerating mesh reconstruction for online reinforcement learning and extending tasks to more generalized objectives like sculpting or partial shape matching. These advances promise to further close the sim-to-real gap and unlock new capabilities for intelligent robotic manipulation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Blog Reading Session -->
+
+
+<!-- Image carousel -->
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Method</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/figures/teaser6.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Overview of the TopoCut framework: We define three representative cutting tasks—slice, stick, and
+          dice—and gather expert data via MPPI guided by Laplace–Beltrami spectral rewards and sparse tele-operation.
+          A dynamics-informed perception module then extracts particle-wise, topology-aware embeddings from this data,
+          which condition our PDDP to generate multi-step cutting actions.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/figures/topology3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Particle-based damage tracking for topology reconstruction. Damaged particles (purple) mark the cut interface, from which we recover object segments via implicit SDF and Marching Cubes.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/figures/perception4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <p>
+            Dynamics‐informed perception:  
+            given the current topological state topo_t (top left)  
+            and the cutting‐surface action a_t (bottom left),  
+            $ F(topo_t, a_t) predicts the next topological state topo_{t+1}(right).  
+            A perception encoder then produces particle‐wise embeddings for downstream policy learning.
+          </p>
+          
+        </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/figures/cut_policy5.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Particle-based score-entropy
+discrete diffusion policy: given the current topological embedding z_t, goal embedding z_g , action history a_hist,
+and a noised action ˜at, the policy predicts denoised cutting actions through conditional discrete diffusion
+      </h2>
+    </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/figures/cut_step3.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Example cutting trajectories for the three canonical tasks. Each row corresponds to one task—slice
+(top), stick (middle), and dice (bottom)—showing the initial state (column 1), the goal shape (column 2), and the
+successive knife poses and resulting fragments at Steps 1–4 (columns 3–6).
+      </h2>
+     </div>
+     
+
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- Image carousel -->
+<!-- <section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">More Qualitative Results</h2>
+      <div id="qual_0" class="carousel results-carousel">
+       <div class="item">
+        
+        <img src="static/images/figures/qual_0.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        qual_0
+        </h2>
+      </div>
+      <div class="item">
+
+        <img src="static/images/figures/qual_1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        qual_1
+        </h2>
+      </div>
+        <div class="item">
+
+        <img src="static/images/figures/qual_2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        qual_2
+        </h2>
+      </div>
+        <div class="item">
+ 
+        <img src="static/images/figures/qual_3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        qual_3
+        </h2>
+      </div>
+        <div class="item">
+
+        <img src="static/images/figures/qual_4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        qual_4
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+<!-- Single Video Section -->
+<!-- <section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Demonstrations on Real World</h2>
+      <div id="video-demo" class="video-container">
+        <video poster="" id="video1" autoplay controls muted loop height="100%">
+          
+          <source src="static/videos/_CORL_2024__real_world.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End Single Video Section -->
+
+<!-- Video carousel -->
+<!-- <section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Demonstrations on Simulator</h2>
+      <div id="Video Results" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_154_0.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_154_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">
+ 
+            <source src="static/videos/video_154_2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video4" autoplay controls muted loop height="100%">
+        
+            <source src="static/videos/video_8961_0.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video5" autoplay controls muted loop height="100%">
+     
+            <source src="static/videos/video_8961_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video6" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_8961_2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video7" autoplay controls muted loop height="100%">
+     
+            <source src="static/videos/video_19898_0.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video8" autoplay controls muted loop height="100%">
+    
+            <source src="static/videos/video_19898_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video9" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_19898_2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video10" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_20555_0.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video11" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_20555_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video12" autoplay controls muted loop height="100%">
+  
+            <source src="static/videos/video_41083_0.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video13" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_41083_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video14" autoplay controls muted loop height="100%">
+  
+            <source src="static/videos/video_41083_2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video15" autoplay controls muted loop height="100%">
+  
+            <source src="static/videos/video_102844_0.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video16" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/video_102844_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+<!--BibTeX citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{wang2024discoveringroboticinteractionmodes,
+      title={Discovering Robotic Interaction Modes with Discrete Representation Learning}, 
+      author={Liquan Wang and Ankit Goyal and Haoping Xu and Animesh Garg},
+      year={2024},
+      eprint={2410.20258},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2410.20258}, 
+}</code></pre>
+    </div>
+</section> -->
+<!--End BibTeX citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
